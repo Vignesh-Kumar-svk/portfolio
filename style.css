@@ -3,16 +3,20 @@ body{
      background:linear-gradient(-15deg,
       rgb(221, 221, 245) 60%,
     rgb(40, 39, 40) 60%);
-    /* background: radial-gradient(blue,cyan); */
-     
-    font-size: 1rem;
+    /* background: radial-gradient(blue,cyan); */ 
+    
     font-family: serif,arial;
-    color: rgb(0, 0, 0);
+   
+}
+.footer{
+    background:linear-gradient(-160deg,rgb(221, 221, 245) 80%,
+  rgb(0, 0, 0) 80%
+  )
+  
 }
 
 
 nav{
-    
     width: 100%;
     overflow: hidden; 
     z-index: 10;
@@ -27,12 +31,82 @@ nav a{
     
 } 
 
-.container {
-    color:white;
-    font-size: 2.26rem;
-    text-transform: uppercase;
+.profile{
+    /* border-top: 5px ridge rgb(255, 255, 255);
+    border-bottom: 5px ridge rgb(255, 255, 255); */
+    margin-left: 2%;
+    margin-right: 2%;
     
-} 
+}
+
+.content{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 100%;
+    padding: 2%;
+    margin-left: 6%; 
+    border:none;
+  
+    
+}
+.content img{
+    
+    max-width: 100%;
+    min-height: 50%;
+    margin-top: 70%;
+    margin-left: 15%;
+    margin-right:0;
+    padding-left: 0;
+    border: 3px inset rgb(169, 169, 169); 
+    
+}
+.content p{
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 0;
+    margin-left: 0%;
+    margin-right: 0;
+    padding-left: 50%;
+    padding-right: 0;
+    border: none;
+    width: 70%;
+    
+}
+
+
+.details p{
+    margin-top: 9%;
+    
+}
+
+.skill{
+    
+    letter-spacing: 0.2rem;
+    transform: skew(-15deg);
+    border-top: 5px groove rgb(27, 217, 223);
+    border-bottom: 5px groove rgb(27, 217, 223);
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 2%;
+    
+    
+}
+.skill span{
+    background-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 35%;
+    font-size: 150%;
+}
+.skill p{
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-left: 2%;
+    font-size: 64%;
+    padding-top: 2%;
+    margin-right: 0%;
+}
 
 
 .content{
@@ -47,7 +121,7 @@ nav a{
 }
 
 .content p{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-left: 0;
     margin-right: 10%;
     
@@ -55,7 +129,7 @@ nav a{
 
 
 .progress{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     width: 80%;
     margin-left: 15%;
     margin-right: 20%;
@@ -259,22 +333,14 @@ nav a:hover{
         transform: scale(1);
     }
 }
-.footer{
-   
-    background:linear-gradient(-160deg,rgb(221, 221, 245) 10%,
-  rgb(0, 0, 0) 70%
-  )
-  
-}
+
 
 @media(min-width:320px) {
 
     body{
-        background:linear-gradient( -15deg,
-        
+        background:linear-gradient(-15deg,
         rgb(221, 221, 245) 80%,
-        rgb(90, 90, 90) 80%
-         );
+      rgb(90, 90, 90) 80%);
     }
     .footer{
    
@@ -299,60 +365,74 @@ nav a:hover{
     }
     
    
-    .profile{
-        border-top: 5px ridge rgb(255, 255, 255);
-        border-bottom: 5px ridge rgb(255, 255, 255);
+    /* .profile{
+        border-top: 5px ridge rgb(27, 217, 223);
+        border-bottom: 5px ridge rgb(27, 217, 223);
         margin-left: 2%;
         margin-right: 2%;
+     
         
-    }
+        
+    } */
     
     .content{
         margin-top: 0;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
+        
+        display: flex;
         max-width: 100%;
-        padding: 2%;
+        padding: 1%;
         margin-left: 6%; 
         border:none;
+        flex-wrap: wrap;
+        
         
     }
     .content img{
         
-        min-width: 100%;
-        min-height: 85%;
+        max-width: 70%;
+        min-height: 50%;
         margin-top: 15%;
-        margin-left: 15%;
+        margin-left: 13%;
         margin-right:0;
         padding-left: 0;
+        justify-content: center;
         border: 3px inset black; 
         
     }
     .content p{
+        color: black;
         font-size: 100%;
         font-weight: 0;
-        margin-left: 25%;
-        margin-right: 0;
-        padding-left: 0;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        padding-left: 15%;
         padding-right: 0;
-        border: none;
-        width: 70%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        width: 100%;
         
     }
+   
     
     .details{
-        margin-top: 9%;
+        margin-top: 5%;
+        border:none;
+        margin-left: 0%;
+
+        width: 100%;
+        font-size: 170%;
         
     }
 
     .skill{
-        
+        margin-top: 0%;
         letter-spacing: 0.2rem;
         transform: skew(-15deg);
-        border-top: 5px groove rgb(27, 217, 223);
-        border-bottom: 5px groove rgb(27, 217, 223);
-        width: 90%;
-        margin-left: 5%;
+        border-top: 5px groove rgb(0, 0, 0);
+        border-bottom: 5px groove rgb(0, 0, 0);
+        width: 95%;
+        margin-left: 4%;
         padding-top: 2%;
         
         
@@ -368,7 +448,7 @@ nav a:hover{
         border: none;
         color: rgb(0, 0, 0);
         margin-left: 2%;
-        font-size: 64%;
+        font-size: 60%;
         padding-top: 2%;
         margin-right: 0%;
     }
@@ -546,25 +626,43 @@ nav a:hover{
         font-size:150%;
     }
     .testimonials{
-       
+      
         margin-top: 10%;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 0;
+        margin-right: 0;
         margin-bottom: 0%;
         color: white;
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
-        height:300px;
-        perspective: 1000px;
+        height:350px;
+        
+        perspective: 100px;
         overflow: hidden;
        
-        padding-left: 40%;
-        padding-right: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
        
         
     }
+
+    .testimonials .item{
+        width: 60%;
+        padding: 5%;
+        border-radius: 30px;
+        background-color: #21262d;
+        position: absolute;
+        border:5px solid white;
+        top: 0;
+        box-sizing: border-box;
+        text-align: center;
+        transition: transform 0.4s;
+        box-shadow: 0 0 10px rgba(0,0,0,0.8);
+        user-select: none;
+        cursor: pointer;
+    }
+    
     .testimonials a{
         background-color: rgb(247, 248, 249);
         color: black;
@@ -584,24 +682,8 @@ nav a:hover{
         color: white;
     }
     
-    .testimonials .item{
-        width: 60%;
-        padding: 2%;
-        border-radius: 30px;
-        background-color: #21262d;
-        position: absolute;
-        border:5px solid white;
-        top: 0;
-        box-sizing: border-box;
-        text-align: center;
-        transition: transform 0.4s;
-        box-shadow: 0 0 10px rgba(0,0,0,0.8);
-        user-select: none;
-        cursor: pointer;
-    }
     
     .dots{
-        
         display: flex; 
         justify-content: center;
         align-items: center;
@@ -623,7 +705,7 @@ nav a:hover{
         margin-left: 10%;
         margin-right: 10%;
         padding-top: 4%;
-        padding-left: 20%;
+        padding-left: 15%;
         
         font-weight: 100;
         transform: skew(-15deg);
@@ -747,12 +829,13 @@ nav a:hover{
         background:linear-gradient(-15deg,
         rgb(221, 221, 245) 85%,
       rgb(40, 39, 40) 85%);
+      
     }
     .footer{
    
         background:linear-gradient(-150deg,
-        rgb(221, 221, 245) 62%,
-      rgb(0, 0, 0) 62%
+        rgb(221, 221, 245) 72%,
+      rgb(0, 0, 0) 72%
       )
       
     }
@@ -770,45 +853,45 @@ nav a:hover{
     }
     
    
-    .profile{
-        border-top: 15px ridge rgb(255, 255, 255);
-        border-bottom: 15px ridge rgb(255, 255, 255);
+    /* .profile{
+        border-top: 10px ridge rgb(30, 255, 248);
+        border-bottom: 10px ridge rgb(30, 255, 248);
         margin-left: 8%;
         margin-right: 8%;
         
-    }
+    } */
     
     .content{
         margin-top: 0;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
+        display: flex;
+        
         max-width: 100%;
         padding: 2%;
-        margin-left: 6%; 
+        margin-left: 4%; 
         border:none;
         
     }
     .content img{
         
-        min-width: 100%;
+        min-width: 80%;
         min-height: 85%;
         margin-top: 15%;
-        margin-left: 15%;
+        margin-left: 5%;
         margin-right:0;
         padding-left: 0;
         border: 3px inset black; 
         
     }
     .content p{
-        font-size: 57%;
+        font-size: 60%;
         font-weight: 0;
-        margin-left: 25%;
+        margin-left: 8%;
         margin-right: 0;
         margin-top: 5%;
         padding-left: 0;
         padding-right: 0;
         border: none;
-        width: 90%;
+        width: 100%;
         
     }
     
@@ -820,7 +903,7 @@ nav a:hover{
     
 
     .skill{
-        
+       
         letter-spacing: 0.2rem;
         transform: skew(-15deg);
         border-top: 8px groove rgb(27, 217, 223);
@@ -836,18 +919,18 @@ nav a:hover{
         padding-left: 1%;
         padding-right: 1%;
         margin-left: 35%;
-        font-size: 170%;
+        font-size: 160%;
     }
     .skill p{
         border: none;
         color: rgb(0, 0, 0);
         margin-left: 1%;
-        font-size: 65%;
-        margin-right: 2%;
+        font-size: 46%;
+        margin-right: 0%;
     }
     
     .typewriter{
-        font-size: 100%;
+        font-size: 80%;
         letter-spacing: 0.1rem;
         margin-left: 5%;
         margin-top: 5%;
@@ -943,7 +1026,7 @@ nav a:hover{
         
     }
     label{
-        font-size: 110%;
+        font-size: 90%;
         background: none;
         color: rgb(0, 0, 0);
         margin-top: 2%;
@@ -961,12 +1044,13 @@ nav a:hover{
         margin-right: 2%;
         border: none;
         padding-bottom: 5%;
+        font-size: 100%;
     }
     
     
     .projects{
-        font-size: 105%;
-        padding-left: 5%;
+        font-size: 95%;
+        padding-left: 1%;
         letter-spacing: 0.2rem;
         transform: skew(-15deg);
     }
@@ -975,7 +1059,7 @@ nav a:hover{
         background-color: white;
         padding-left: 1%;
         padding-right: 0%;
-        margin-left: 30%;
+        margin-left: 20%;
         
     }
 
@@ -1026,8 +1110,8 @@ nav a:hover{
         margin-bottom: 0%;
         margin-left: 0%;
         margin-right: 0%;
-        padding-left: 20%;
-        padding-right: 35%;
+        padding-left: 10%;
+        padding-right: 25%;
         
     }
     .testimonials a{
@@ -2081,12 +2165,12 @@ nav a:hover{
         
     }
     .content p{
-        font-size: 110%;
+        font-size: 80%;
         font-weight: 0;
         margin-left: 25%;
         margin-top: 5%;
         margin-right: 0;
-        
+        color: white;
       
         border: none;
         width: 70%;
