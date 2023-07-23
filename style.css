@@ -404,8 +404,8 @@ nav a:hover{
         margin-left: 1%; 
         
         animation-name: profile;
-        animation-delay: 4000s;
-        animation-duration: 3000ms;
+        animation-delay: 4000ms;
+        animation-duration: 2000ms;
         
     }
     
@@ -912,7 +912,8 @@ nav a:hover{
         border:none;
         padding-bottom: 0%;
         animation-name: profile;
-        animation-duration: 6500ms;
+        animation-delay: 4000ms;
+        animation-duration: 2000ms;
         
     }
     
@@ -1404,8 +1405,8 @@ nav a:hover{
         border-right: 10px solid silver; */
         color: white;
         animation-name: profile;
-        animation-delay: 4000s;
-        animation-duration: 6000ms;
+        animation-delay: 4000ms;
+        animation-duration: 2000ms;
         
     }
     
