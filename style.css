@@ -874,8 +874,8 @@ nav a:hover{
     
    
     .profile{
-        border-top: 10px solid rgb(230, 178, 6);
-        border-right: 10px solid rgb(230,178,6);
+        border-top: 10px solid rgb(205, 205, 205);
+        border-right: 10px solid rgb(176, 176, 176);
         
         
     } 
@@ -907,7 +907,7 @@ nav a:hover{
         font-size: 70%;
         text-align: left;
         font-weight: 0;
-        margin-left: 10%;
+        margin-left: 4%;
         margin-right: 0;
         margin-top: 4%;
         padding-left: 0;
@@ -1784,7 +1784,8 @@ nav a:hover{
     
    
     .profile{
-        
+        border-top: 10px solid rgb(230, 178, 6);
+        border-right: 10px solid rgb(230,178,6);
         margin-left: 0%;
         margin-right: 0%;
         
