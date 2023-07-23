@@ -12,6 +12,9 @@
     <title>Vignesh Kumar S</title>
 </head>
 <body>
+    <div class="loader">
+        
+    </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark   position-fixed">
         <span style="color: white;">Vignesh Kumar S</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -241,11 +244,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
         $(".navbar-collapse a").click(function(){
             $(".navbar-collapse").collapse("hide");
         });
+
+        $(document).ready(function(){
+            setTimeout(()=>{
+                $('.loader').remove();
+            },4000);
+            })
     </script>
 </body>
 </html>
