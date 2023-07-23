@@ -861,6 +861,12 @@ nav a:hover{
 	
 	z-index: 4;
 }
+
+@media(min-width:450px){
+    .content p{
+        margin-left: 20%;
+    }
+}
     
 }
 @media(min-width:480px) {
