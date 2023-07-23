@@ -124,7 +124,7 @@ nav a{
 .content{
     
     animation-name: profile;
-    animation-duration: 3s;
+    animation-duration: 15000ms;
 }
 @keyframes profile {
     from{
@@ -2196,6 +2196,14 @@ nav a:hover{
         background:linear-gradient(-19deg,
         rgb(221, 221, 245) 79%,
       rgb(40, 39, 40) 76%);
+    }
+    .footer{
+   
+        background:linear-gradient(-150deg,
+        rgb(221, 221, 245) 68%,
+      rgb(0, 0, 0) 68%
+      )
+      
     }
    
     a:link{
