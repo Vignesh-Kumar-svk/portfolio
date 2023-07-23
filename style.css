@@ -381,7 +381,7 @@ nav a:hover{
     .profile{
         
         margin-left: 0%;
-        margin-right: 4%;
+        margin-right: 1%;
         
         border-top: 10px solid rgb(205, 205, 205);
         border-right: 10px solid rgb(205, 205, 205);
@@ -2202,7 +2202,7 @@ nav a:hover{
         color: white;
     }
     *{
-        font-size: 110%;
+        font-size: 103%;
         max-width: 100%;
         overflow-x: hidden !important;/*TO CONTROL THE EXTRA SCROLLING IN VERTICAL  */
         
@@ -2219,10 +2219,10 @@ nav a:hover{
     
    
     .profile{
-        border-top: 10px solid rgb(205, 205, 205);
-        border-right: 10px solid rgb(205,205,205);
-        margin-left: 0%;
-        margin-right: 0%;   
+        border-top: 10px solid rgb(198, 198, 198);
+        border-right: 10px solid rgb(198, 198, 198);
+        margin-left: 2%;
+        margin-right: 4%;   
     }
     
     .content{
@@ -2456,7 +2456,7 @@ nav a:hover{
         align-items: center;
         justify-content: center;
         position: relative;
-        height:690px;
+        height:710px;
         
         perspective: 1000px;
         overflow: hidden;
