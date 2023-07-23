@@ -373,7 +373,7 @@ nav a:hover{
         
         border-top: 10px solid rgb(191, 191, 191);
         border-right: 10px solid rgb(161, 161, 161);
-        border-top-right-radius: 20%;
+        border-top-right-radius: 10%;
         border-top-left-radius: 20%;
         border-bottom-right-radius: 20%;
         
@@ -457,6 +457,7 @@ nav a:hover{
     .skill p{
         border: none;
         color: rgb(0, 0, 0);
+       
         margin-left: 0%;
         font-size: 100%;
         padding-top: 2%;
@@ -1432,7 +1433,7 @@ nav a:hover{
     .skill p{
         border: none;
         color: rgb(0, 0, 0);
-        margin-left: 15%;
+        margin-left: 10%;
         font-size: 100%;
         margin-right: 2%;
     }
