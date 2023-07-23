@@ -911,12 +911,11 @@ nav a:hover{
     
     .content{
         margin-top: 0;
-        display: grid;
-        grid-template-columns: 1fr;
-        
+        display: flex;
+        flex-direction: column;
+        column-gap: 0%;
         max-width: 100%;
         padding: 2%;
-         
         border:none;
         padding-bottom: 0%;
         animation-name: profile;
@@ -931,24 +930,27 @@ nav a:hover{
         }
     }
     .content img{
-        max-width: 80%;
+        max-width: 55%;
         min-width: 40%;
         max-height: 70%;
         min-height: 40%;
-        margin-top: 15%;
-        margin-left: 15%;
+        margin-top: 10%;
+        margin-left: 17%;
         margin-right:0;
         padding-left: 0;
         border: 3px groove black; 
+        margin-bottom: 0%;
+        padding-bottom: 0%;
         
     }
     .content p{
         font-size: 70%;
-        text-align: left;
+        
         font-weight: 0;
         margin-left: 4%;
         margin-right: 0;
-        margin-top: 4%;
+        margin-top: 0%;
+        padding-top: 0%;
         padding-left: 0;
         padding-right: 0;
         border: none;
@@ -957,13 +959,13 @@ nav a:hover{
     }
     
     .details{
+        margin-left: 4%;
+        padding-top: 0%;
         margin-top: 0%;
         margin-bottom: 0%;
        
         
     }
-
-    
 
     .skill{
        
@@ -1361,8 +1363,14 @@ nav a:hover{
 	
 	z-index: 4;
 }
-   
 
+
+}
+
+@media(min-width:510px){
+    .content p{
+        margin-left: 6%;
+    }
 }
 
 @media(min-width:801px) {
