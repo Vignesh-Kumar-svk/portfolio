@@ -403,9 +403,15 @@ nav a:hover{
         padding: 0%;
         margin-left: 1%; 
         
+        animation-name: profile;
+        animation-duration: 10000ms;
+        
+    }
     
-        
-        
+    @keyframes profile {
+        from{
+            transform: translatex(-190px);
+        }
     }
     .content img{
         
@@ -904,6 +910,15 @@ nav a:hover{
          
         border:none;
         padding-bottom: 0%;
+        animation-name: profile;
+        animation-duration: 10000ms;
+        
+    }
+    
+    @keyframes profile {
+        from{
+            transform: translatex(-190px);
+        }
     }
     .content img{
         max-width: 80%;
@@ -1387,7 +1402,15 @@ nav a:hover{
         /* border-top:10px solid silver;
         border-right: 10px solid silver; */
         color: white;
+        animation-name: profile;
+        animation-duration: 10000ms;
         
+    }
+    
+    @keyframes profile {
+        from{
+            transform: translatex(-190px);
+        }
     }
     .content img{
         
