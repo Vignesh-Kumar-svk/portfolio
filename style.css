@@ -489,6 +489,7 @@ nav a:hover{
     }
     
     .typewriter{
+        font-family: 'Times New Roman','Serif';
         font-size: 60%;
         letter-spacing: 0.1rem;
         margin-left: 5%;
@@ -501,7 +502,7 @@ nav a:hover{
        
     }
     .I{
-        
+        font-size: 230%;
         transition: 8s;
         
     }
@@ -958,6 +959,7 @@ nav a:hover{
     }
     
     .typewriter{
+        font-family: 'Times New Roman','Serif';
         font-size: 100%;
         letter-spacing: 0.1rem;
         margin-left: 5%;
@@ -970,7 +972,7 @@ nav a:hover{
        
     }
     .I{
-        
+        font-size: 200%;
         transition: 8s;
         
     }
@@ -1436,6 +1438,7 @@ nav a:hover{
     }
     
     .typewriter{
+        font-family: 'Times New Roman','Serif';
         font-size: 100%;
         letter-spacing: 0.3rem;
         margin-left: 10%;
@@ -1447,7 +1450,7 @@ nav a:hover{
        
     }
     .I{
-        
+        font-size: 230%;
         transition: 8s;
         
     }
@@ -1858,6 +1861,7 @@ nav a:hover{
     }
     
     .typewriter{
+        font-family: 'Times New Roman','Serif';
         font-size: 100%;
         letter-spacing: 0.3rem;
         margin-left: 10%;
@@ -1869,7 +1873,7 @@ nav a:hover{
        
     }
     .I{
-        
+        font-size: 230%;
         transition: 8s;
         
     }
@@ -2280,6 +2284,7 @@ nav a:hover{
     }
     
     .typewriter{
+        font-family: 'Times New Roman','Serif';
         letter-spacing: 0.3rem;
         margin-left: 10%;
         margin-top: 5%;
@@ -2291,7 +2296,7 @@ nav a:hover{
        
     }
     .I{
-        
+        font-size: 230%;
         transition: 8s;
         
     }
