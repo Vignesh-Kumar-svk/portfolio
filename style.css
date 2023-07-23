@@ -873,13 +873,12 @@ nav a:hover{
     }
     
    
-    /* .profile{
-        border-top: 10px ridge rgb(30, 255, 248);
-        border-bottom: 10px ridge rgb(30, 255, 248);
-        margin-left: 8%;
-        margin-right: 8%;
+    .profile{
+        border-top: 10px solid rgb(230, 178, 6);
+        border-right: 10px solid rgb(230,178,6);
         
-    } */
+        
+    } 
     
     .content{
         margin-top: 0;
@@ -1352,8 +1351,8 @@ nav a:hover{
         
         margin-left: 0%;
         margin-right: 8%;
-        border-top: 10px solid rgb(230, 178, 6);
-        border-right: 10px solid rgb(230,178,6);
+        border-top: 10px solid rgb(192, 192, 192);
+        border-right: 10px solid rgb(192,192,192);
         border-radius: 20%;
         
        
@@ -1392,7 +1391,7 @@ nav a:hover{
     .content p{
         font-size: 90%;
         font-weight: 0;
-        margin-left: 15%;
+        margin-left: 10%;
         margin-right: 0;
         padding-left: 0;
         padding-right: 0;
@@ -1404,7 +1403,7 @@ nav a:hover{
     
     
     .details{
-        margin-top: 8%;
+        margin-top: 2%;
         padding-right: 0%;
         
     }
