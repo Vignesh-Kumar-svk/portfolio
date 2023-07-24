@@ -1369,8 +1369,13 @@ nav a:hover{
 
 @media(min-width:510px){
     .content p{
-        margin-left: 6%;
+        margin-top: 5%;
+        margin-left: 10%;
     }
+    .skill p{
+        font-size: 120%;
+    }
+
 }
 
 @media(min-width:801px) {
@@ -1379,6 +1384,13 @@ nav a:hover{
         background:linear-gradient(-19deg,
         rgb(221, 221, 245) 79%,
       rgb(40, 39, 40) 79%);
+    }
+    .footer{
+   
+        background:linear-gradient(-160deg,
+        rgb(221, 221, 245) 65%,
+        rgb(40, 39, 40) 65%
+      )
     }
    
     *{
@@ -1448,6 +1460,7 @@ nav a:hover{
     .content p{
         font-size: 90%;
         font-weight: 0;
+        margin-top: 4%;
         margin-left: 10%;
         margin-right: 0;
         padding-left: 0;
@@ -1460,7 +1473,7 @@ nav a:hover{
     
     
     .details{
-        margin-top: 2%;
+        margin-top: 8%;
         padding-right: 0%;
         
     }
@@ -1487,9 +1500,10 @@ nav a:hover{
     .skill p{
         border: none;
         color: rgb(0, 0, 0);
-        margin-left: 10%;
-        font-size: 100%;
-        margin-right: 2%;
+        margin-left: 3%;
+        font-size: 120%;
+        text-align: center;
+        margin-right: 5%;
     }
     
     .typewriter{
@@ -1664,7 +1678,7 @@ nav a:hover{
         justify-content: center;
         position: relative;
         height:450px;
-        perspective: 1000px;
+        perspective: 300px;
         overflow: hidden;
         margin-bottom: 0%;
        margin-left: 0%;
@@ -2572,7 +2586,7 @@ nav a:hover{
    
     .foot{
         border-top: 5px groove white;
-        margin-left: 10%;
+        margin-left: 15%;
         margin-right: 20%;
         padding-top: 4%;
         padding-left: 25%;
