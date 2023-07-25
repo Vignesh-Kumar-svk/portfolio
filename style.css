@@ -1378,9 +1378,11 @@ nav a:hover{
     .content p{
         margin-top: 5%;
         margin-left: 10%;
+
     }
     .skill p{
         font-size: 120%;
+
     }
 
 }
@@ -1621,7 +1623,7 @@ nav a:hover{
         max-width: 100%;
         margin-left: 0%;
        
-        padding-right: 2%;
+        padding-right: 1%;
         margin-bottom: 3%;
         
     }
