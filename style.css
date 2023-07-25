@@ -1916,8 +1916,8 @@ nav a:hover{
         
         letter-spacing: 0.2rem;
         transform: skew(-15deg);
-        border-top: 8px groove rgb(27, 217, 223);
-        border-bottom: 8px groove rgb(27, 217, 223);
+        border-top: 8px groove rgb(75, 75, 75);
+        border-bottom: 8px groove rgb(74, 75, 75);
         width: 80%;
         margin-left: 10%;
         padding-top: 2%;
