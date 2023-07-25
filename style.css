@@ -381,7 +381,7 @@ nav a:hover{
     .profile{
         
         margin-left: 0%;
-        margin-right: 1%;
+        margin-right: 2%;
         
         border-top: 10px solid rgb(205, 205, 205);
         border-right: 10px solid rgb(205, 205, 205);
@@ -467,11 +467,13 @@ nav a:hover{
         
     }
     .skill span{
-        background-color: white;
+        background-color: rgb(183, 183, 183);
         padding-left: 1%;
         padding-right: 1%;
-        margin-left: 35%;
+        margin-left: 30%;
         font-size: 130%;
+        font-weight: 600;
+        letter-spacing: 0.4em;
     }
     .skill p{
         border: none;
@@ -510,7 +512,7 @@ nav a:hover{
     
     .typewriter{
         font-family: 'Times New Roman','Serif';
-        font-size: 60%;
+        font-size: 70%;
         letter-spacing: 0.1rem;
         margin-left: 5%;
         margin-top: 5%;
@@ -522,7 +524,7 @@ nav a:hover{
        
     }
     .I{
-        font-size: 230%;
+        font-size: 200%;
         transition: 8s;
         
     }
@@ -535,7 +537,7 @@ nav a:hover{
         
     }
     .V{
-        font-size: 230%;
+        font-size: 200%;
         transition: cubic-bezier(0.39, 0.575, 0.565, 1);
         
     }
@@ -564,7 +566,7 @@ nav a:hover{
         
     }
     .K{
-        font-size: 230%;
+        font-size: 200%;
         transition: cubic-bezier(0.39, 0.575, 0.565, 1);
         
     }
@@ -586,7 +588,7 @@ nav a:hover{
     }
     .s{
         padding-left: 0%;
-        font-size: 230%;
+        font-size: 200%;
         transition: cubic-bezier(0.39, 0.575, 0.565, 1);
     }
     .aboutbreak{
@@ -622,11 +624,12 @@ nav a:hover{
     }
     .projects span{
         margin-top: 2%;
-        background-color: white;
+        background-color: rgb(187, 187, 187);
+        font-weight: 600;
         padding-left: 3%;
         padding-right: 0%;
-        margin-left: 25%;
-        font-size: 200%;
+        margin-left: 20%;
+        font-size: 170%;
     }
 
     .projects p{
@@ -664,7 +667,7 @@ nav a:hover{
     .testimonials{
       
         margin-top: 10%;
-        margin-left: 0;
+        margin-left: 0%;
         margin-right: 0;
         margin-bottom: 0%;
         color: white;
@@ -673,10 +676,8 @@ nav a:hover{
         justify-content: center;
         position: relative;
         height:450px;
-        
-        perspective: 100px;
+        perspective: 150px;
         overflow: hidden;
-       
         padding-left: 0%;
         padding-right: 0%;
        
@@ -728,7 +729,7 @@ nav a:hover{
         display: flex; 
         justify-content: center;
         align-items: center;
-        margin-top: 10%;
+        margin-top: 1%;
         padding-top: 1%;
     }
     .dots label{
@@ -947,7 +948,7 @@ nav a:hover{
         font-size: 70%;
         
         font-weight: 0;
-        margin-left: 4%;
+        margin-left: 2%;
         margin-right: 0;
         margin-top: 0%;
         padding-top: 0%;
@@ -980,7 +981,7 @@ nav a:hover{
         
     }
     .skill span{
-        background-color: white;
+        background-color: rgb(183, 183, 183);
         padding-left: 1%;
         padding-right: 1%;
         margin-left: 35%;
@@ -1000,7 +1001,7 @@ nav a:hover{
     
     .typewriter{
         font-family: 'Times New Roman','Serif';
-        font-size: 100%;
+        font-size: 120%;
         letter-spacing: 0.1rem;
         margin-left: 5%;
         margin-top: 5%;
@@ -1012,7 +1013,7 @@ nav a:hover{
        
     }
     .I{
-        font-size: 200%;
+        font-size: 170%;
         transition: 8s;
         
     }
@@ -1025,7 +1026,7 @@ nav a:hover{
         
     }
     .V{
-        font-size: 200%;
+        font-size: 170%;
         transition: cubic-bezier(0.39, 0.575, 0.565, 1);
         
     }
@@ -1054,7 +1055,7 @@ nav a:hover{
         
     }
     .K{
-        font-size: 200%;
+        font-size: 170%;
         transition: cubic-bezier(0.39, 0.575, 0.565, 1);
         
     }
@@ -1076,7 +1077,7 @@ nav a:hover{
     }
     .s{
         padding-left: 0%;
-        font-size: 200%;
+        font-size: 170%;
         transition: cubic-bezier(0.39, 0.575, 0.565, 1);
     }
     .aboutbreak{
@@ -1115,7 +1116,7 @@ nav a:hover{
         margin-right: 2%;
         border: none;
         padding-bottom: 5%;
-        font-size: 108%;
+        font-size: 105%;
     }
     
     
@@ -1461,7 +1462,7 @@ nav a:hover{
         font-size: 90%;
         font-weight: 0;
         margin-top: 4%;
-        margin-left: 14%;
+        margin-left: 10%;
         margin-right: 0;
         padding-left: 0;
         padding-right: 0;
@@ -1491,7 +1492,7 @@ nav a:hover{
         
     }
     .skill span{
-        background-color: white;
+        background-color: rgb(183, 183, 183);
         padding-left: 1%;
         padding-right: 1%;
         margin-left: 35%;
@@ -1519,7 +1520,7 @@ nav a:hover{
        
     }
     .I{
-        font-size: 230%;
+        font-size: 190%;
         transition: 8s;
         
     }
@@ -1532,7 +1533,7 @@ nav a:hover{
         
     }
     .V{
-        font-size: 230%;
+        font-size: 190%;
         transition: cubic-bezier(0.39, 0.575, 0.565, 1);
         
     }
@@ -1561,7 +1562,7 @@ nav a:hover{
         
     }
     .K{
-        font-size: 230%;
+        font-size: 190%;
         transition: cubic-bezier(0.39, 0.575, 0.565, 1);
         
     }
@@ -1583,7 +1584,7 @@ nav a:hover{
     }
     .s{
         padding-left: 0%;
-        font-size: 230%;
+        font-size: 190%;
         transition: cubic-bezier(0.39, 0.575, 0.565, 1);
     }
     .aboutbreak{
@@ -1632,7 +1633,7 @@ nav a:hover{
     }
     .projects span{
         margin-top: 2%;
-        background-color: white;
+        background-color: rgb(183, 183, 183);
         padding-left: 1%;
         padding-right: 0%;
         margin-left: 35%;
@@ -1677,7 +1678,7 @@ nav a:hover{
         align-items: center;
         justify-content: center;
         position: relative;
-        height:450px;
+        height:470px;
         perspective: 300px;
         overflow: hidden;
         margin-bottom: 0%;
