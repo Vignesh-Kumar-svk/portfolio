@@ -1917,7 +1917,7 @@ nav a:hover{
         
     }
     .skill span{
-        background-color: white;
+        background-color: rgb(183, 183, 183);
         padding-left: 1%;
         padding-right: 1%;
         margin-left: 35%;
@@ -2054,7 +2054,7 @@ nav a:hover{
     }
     .projects span{
         margin-top: 2%;
-        background-color: white;
+        background-color: rgb(183, 183, 183);
         padding-left: 1%;
         padding-right: 0%;
         margin-left: 25%;
@@ -2343,7 +2343,7 @@ nav a:hover{
         
     }
     .skill span{
-        background-color: white;
+        background-color: rgb(183, 183, 183);
         padding-left: 1%;
         padding-right: 1%;
         margin-left: 52%;
@@ -2485,7 +2485,7 @@ nav a:hover{
         transform: skew(-15deg);
     }
     .projects span{
-        background-color: white;
+        background-color: rgb(183, 183, 183);
         margin-left: 35%;
         padding-left: 1%;
         padding-right: 1%;
