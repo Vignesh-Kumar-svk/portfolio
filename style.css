@@ -475,7 +475,7 @@ nav a:hover{
         font-size: 130%;
         font-weight: 600;
         letter-spacing: 0.4em;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         
         
     }
@@ -990,7 +990,7 @@ nav a:hover{
         padding-right: 1%;
         margin-left: 35%;
         font-size: 200%;
-        color: white;
+        color: rgb(0, 0, 0);
     }
     .skill p{
         border: none;
@@ -1137,7 +1137,7 @@ nav a:hover{
         padding-left: 1%;
         padding-right: 0%;
         margin-left: 30%;
-        color: white;
+        color: rgb(0, 0, 0);
         
     }
 
@@ -1503,7 +1503,7 @@ nav a:hover{
         padding-right: 1%;
         margin-left: 35%;
         font-size: 180%;
-        color: white;
+        color: rgb(0, 0, 0);
     }
     .skill p{
         border: none;
@@ -1645,7 +1645,7 @@ nav a:hover{
         padding-right: 0%;
         margin-left: 35%;
         font-size: 210%;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
     .projects p{
@@ -1930,6 +1930,7 @@ nav a:hover{
         padding-right: 1%;
         margin-left: 35%;
         font-size: 180%;
+        color: black;
     }
     .skill p{
         border: none;
@@ -2067,6 +2068,7 @@ nav a:hover{
         padding-right: 0%;
         margin-left: 25%;
         font-size: 200%;
+        color: black;
         
     }
 
@@ -2356,6 +2358,7 @@ nav a:hover{
         padding-right: 1%;
         margin-left: 52%;
         font-size: 210%;
+        color: black;
     }
     .skill p{
         padding-left: 0%;
