@@ -618,6 +618,7 @@ nav a:hover{
         margin-right: 2%;
         border: none;
         font-size: 110%;
+        text-align: justify;
     }
     
     
@@ -1123,6 +1124,7 @@ nav a:hover{
         border: none;
         padding-bottom: 5%;
         font-size: 105%;
+        text-align: justify;
     }
     
     
@@ -1632,6 +1634,7 @@ nav a:hover{
         margin-left: 2%;
         margin-right: 2%;
         border: none;
+        text-align: justify;
     }
     
     
@@ -2032,6 +2035,7 @@ nav a:hover{
     .about p{
         border: none;
         margin-bottom: 5%;
+        text-align: justify;
     }
     .aboutbreak{
         margin-top: 5%;
@@ -2475,6 +2479,7 @@ nav a:hover{
         padding-bottom: 0%;
         margin-bottom: 0%;
         font-size: 140%;
+        text-align: justify;
     }
     
     .progress{
