@@ -1,7 +1,7 @@
 body{
     
      background:linear-gradient(-15deg,
-      rgb(0, 0, 240) 60%,
+      rgb(221, 221, 245) 60%,
     rgb(40, 39, 40) 60%);
     /* background: radial-gradient(blue,cyan); */ 
     
@@ -56,7 +56,7 @@ nav a{
     display: grid;
     grid-template-columns: 1fr 2fr;
     max-width: 100%;
-    padding: 4%;
+    padding: 5%;
     margin-left: 6%; 
     border:none;
   
@@ -353,7 +353,7 @@ nav a:hover{
 
     body{
         background:linear-gradient(-15deg,
-        rgb(221, 221, 245) 85%,
+        rgb(0, 0, 255) 85%,
       rgb(90, 90, 90) 85%);
 
     }
