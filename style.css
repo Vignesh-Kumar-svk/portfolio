@@ -882,8 +882,8 @@ nav a:hover{
 @media(min-width:480px) {
     body{
         background:linear-gradient(-15deg,
-        rgb(221, 221, 245) 89%,
-      rgb(40, 39, 40) 89%);
+        rgb(221, 221, 245) 86%,
+      rgb(40, 39, 40) 86%);
       
     }
     .footer{
@@ -952,7 +952,7 @@ nav a:hover{
     .content p{
         font-size: 60%;
         font-weight: 0;
-        margin-left: 8%;
+        margin-left: 4%;
         margin-right: 0;
         margin-top: 5%;
         padding-top: 0%;
@@ -964,7 +964,7 @@ nav a:hover{
     }
     
     .details{
-        margin-left: 8%;
+        margin-left: 4%;
         padding-top: 0%;
         margin-top: 10%;
         margin-bottom: 0%;
@@ -988,7 +988,7 @@ nav a:hover{
         padding-left: 1%;
         padding-right: 1%;
         margin-left: 35%;
-        font-size: 200%;
+        font-size: 180%;
         color: rgb(0, 0, 0);
     }
     .skill p{
@@ -1184,7 +1184,7 @@ nav a:hover{
         justify-content: center;
         position: relative;
         height:490px;
-        perspective: 1000px;
+        perspective: 700px;
         overflow: hidden;
         margin-bottom: 0%;
         margin-left: 0%;
@@ -1260,13 +1260,13 @@ nav a:hover{
         margin-right: 10%;
         padding-top: 4%;
         padding-left: 23%;
-        font-size: 70%;
+        font-size: 90%;
         font-weight: 900;
         transform: skew(-15deg);
     }
     .foot span{
         color: white;
-        font-size: 70%;
+        font-size: 90%;
         letter-spacing: 0.5rem;
        
     }
@@ -1428,6 +1428,9 @@ nav a:hover{
         font-size: 120%;
         font-weight: 900;
         transform: skew(-15deg);
+    }
+    .testimonials{
+        perspective: 1000px;
     }
 
 }
