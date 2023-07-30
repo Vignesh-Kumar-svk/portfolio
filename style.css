@@ -950,7 +950,7 @@ nav a:hover{
         
     }
     .content p{
-        font-size: 60%;
+        font-size: 50%;
         font-weight: 0;
         margin-left: 4%;
         margin-right: 0;
@@ -1185,7 +1185,7 @@ nav a:hover{
         justify-content: center;
         position: relative;
         height:490px;
-        perspective: 700px;
+        perspective: 400px;
         overflow: hidden;
         margin-bottom: 0%;
         margin-left: 0%;
