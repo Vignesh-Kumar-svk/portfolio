@@ -1406,6 +1406,9 @@ nav a:hover{
        
         
     }
+    .skill span{
+        font-size: 200%;
+    }
     .typewriter{
         font-family: 'Times New Roman','Serif';
         font-size: 120%;
