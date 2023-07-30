@@ -882,8 +882,8 @@ nav a:hover{
 @media(min-width:480px) {
     body{
         background:linear-gradient(-15deg,
-        rgb(221, 221, 245) 85%,
-      rgb(40, 39, 40) 85%);
+        rgb(221, 221, 245) 89%,
+      rgb(40, 39, 40) 89%);
       
     }
     .footer{
@@ -950,10 +950,9 @@ nav a:hover{
         
     }
     .content p{
-        font-size: 35%;
-        
+        font-size: 48%;
         font-weight: 0;
-        margin-left: 2%;
+        margin-left: 5%;
         margin-right: 0;
         margin-top: 5%;
         padding-top: 0%;
@@ -1007,7 +1006,7 @@ nav a:hover{
     
     .typewriter{
         font-family: 'Times New Roman','Serif';
-        font-size: 120%;
+        font-size: 85%;
         letter-spacing: 0.1rem;
         margin-left: 5%;
         margin-top: 5%;
@@ -1262,7 +1261,7 @@ nav a:hover{
         margin-right: 10%;
         padding-top: 4%;
         padding-left: 23%;
-        font-size: 120%;
+        font-size: 85%;
         font-weight: 900;
         transform: skew(-15deg);
     }
@@ -1378,6 +1377,12 @@ nav a:hover{
 
 @media(min-width:485px){
    
+    body{
+        background:linear-gradient(-15deg,
+        rgb(221, 221, 245) 85%,
+      rgb(40, 39, 40) 85%);
+      
+    }
     .skill p{
         font-size: 120%;
     }
@@ -1401,6 +1406,29 @@ nav a:hover{
         margin-bottom: 0%;
        
         
+    }
+    .typewriter{
+        font-family: 'Times New Roman','Serif';
+        font-size: 120%;
+        letter-spacing: 0.1rem;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-weight: 900;
+        transform: skew(-15deg);
+        text-decoration: underline;
+        width: 100%;
+       
+    }
+    .foot{
+        border-top: 5px groove white;
+        margin-left: 9%;
+        margin-right: 10%;
+        padding-top: 4%;
+        padding-left: 23%;
+        font-size: 120%;
+        font-weight: 900;
+        transform: skew(-15deg);
     }
 
 }
