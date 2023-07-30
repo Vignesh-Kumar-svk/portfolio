@@ -56,7 +56,7 @@ nav a{
     display: grid;
     grid-template-columns: 1fr 2fr;
     max-width: 100%;
-    padding: 5%;
+    padding: 2%;
     margin-left: 6%; 
     border:none;
   
@@ -885,7 +885,7 @@ nav a:hover{
     body{
         background:linear-gradient(-15deg,
         rgb(221, 221, 245) 85%,
-      rgb(255, 0, 255) 85%);
+      rgb(40, 39, 40) 85%);
       
     }
     .footer{
@@ -1396,7 +1396,7 @@ nav a:hover{
     body{
         background:linear-gradient(-19deg,
         rgb(221, 221, 245) 79%,
-      rgb(40, 39, 40) 79%);
+      rgb(255, 0, 255) 79%);
     }
     .footer{
    
